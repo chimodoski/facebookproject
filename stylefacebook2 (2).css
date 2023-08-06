@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+
+#top{
+    display: block;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 27px 10px 350px 100px 55px 40px 55px 40px 55px 40px 55px 190px 27px 10px 27px 10px 27px 10px 27px;
+    position: relative;
+}
+
+/* .topcenter{
+    display: block;
+    position: absolute;
+    left: 0;
+   
+
+} */
+
+.fb{
+    padding-top: 10px;
+}
+
+.home{
+    position: absolute;
+    left: 450px;
+    padding-top: 10px;
+}
+
+.play{
+    padding-top: 10px;
+    position: absolute;
+    left: 578px;
+}
+
+.people{
+    padding-top: 6px;
+    position: absolute;
+    right: 578px;
+}
+
+.peopleimg{
+    width: 24px;
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: black;
+}
+
+.magicwand{
+    position: absolute;
+    right: 450px;
+    width: 25px;
+    height: 15px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    
+}
+
+.magic{
+    padding-top: 10px;
+}
+
+.menuimg{
+    width: 35px;
+    height: 35px;
+    
+    border: 2px solid #D3D3D3;
+    border-radius: 50%;
+    background-color: #D3D3D3;
+    padding: 6px;
+}
+.menu{
+    
+    position: absolute;
+    right: 149px;
+}
+
+.mssg{
+    width: 35px;
+    height: 35px;
+    border: 5px solid #D3D3D3;
+    border-radius: 50%;
+    background-color: #D3D3D3;
+    padding: 3px;
+}
+.message{
+    position: absolute;
+    right: 107px;
+}
+
+.notification{
+    width: 35px;
+    height:35px;
+    border: 6px solid #D3D3D3;
+    border-radius: 50%;
+    background-color: #D3D3D3;  
+    padding: 3px;
+}
+.bell{
+    position: absolute;
+    right: 65px;  
+}
+
+.mylogo{
+    width: 35px;
+    height: 35px;
+    border: 5px solid #D3D3D3;
+    border-radius: 50%;
+    background-color: #D3D3D3;
+}
+.logo{
+    position: absolute;
+    right: 22px;
+}
+
+::placeholder{
+    padding: 30px;
+    
+}
+
+input{
+    width: 215px;
+    height: 33px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: rgba(119, 136, 153, 0.3);
+}   
+
+.inpuu i{
+    position: absolute;
+    top: 10px;
+    padding-left: 12px;
+    
+}
+
+
+
+.magnify{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -.125em;
+    padding: 2px;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: #D3D3D3;
+    width: auto;
+    height: 100vh;
+    margin: 1px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 290px 170px 370px 250px 275px;
+}
+
+#sidemenu{
+    display: grid;
+    grid-auto-flow: row;
+    margin-top: 15px;
+    width: 265px;
+    height: 350px;
+}
+
+.mylogomain{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 39px 300px;
+    margin-left: 2px;
+    margin-top: 0px;
+}
+
+.mylogomain img{
+    width: 30px;
+    height: 30px;
+    border: 5px solid #D3D3D3;
+    border-radius: 50%;
+    background-color: gold;
+    /* margin-top: 50px; */
+}
+
+.friends{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 35px 90px;
+    margin-left: 8px;
+}
+
+.feeds{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 35px 90px;
+    margin-left: 7px;
+}
+
+.groups{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 35px 90px;
+    margin-left: 6px;
+}
+
+.mktplace{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 35px 90px;
+    margin-left: 7px;
+}
+
+.watches{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 35px 90px;
+    margin-left: 7px;
+}
+
+.memory{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 35px 90px;
+    margin-left: 7px;
+}
+
+#centermenu{
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    display: grid;
+    grid-auto-flow: column;
+    /* width: 400px; */
+    height: 70px;
+    justify-content: space-around;
+    border-radius: 10px 10px 0px 0px;
+    
+    margin-top: 1px;
+    background-color: #F8F8FF;
+}
+
+#centermenu span{
+    margin-top: 25px;
+}
+
+a:active{
+    color: black;
+}
+
+
+.reelsvg{
+    width: 20px;
+    height: 18px;
+}
+.reelsvg, .reeletext{
+    vertical-align: middle;
+    /* display: inline-block;  */   
+}
+
+#mdi-video-plus{
+    width: 20px;
+    height: 20px;
+}
+
+#mdi-video-plus, .roomtext{
+    vertical-align: middle;
+    /* display: inline-block; */
+}
+
+#centerpics{
+    height: 262px;
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    background-color: #F8F8FF;
+    margin-top: 73px;
+    border-radius: 0px 0px 10px 10px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+
+.picho1, .picho2, .picho3, .picho4{
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 230px;
+    width: 110px;
+    margin-top: 18px;
+}
+
+.picho1{
+    background: url(/fb_pichos/fbpichos2/IMG_20220929_094033_313.jpg);
+}
+
+.picho2{
+    background: url(/fb_pichos/fbpichos2/IMG_20220929_170054_913.jpg);
+}
+
+.picho3{
+    background: url(/fb_pichos/fbpichos2/IMG_20221004_161631_547.jpg);
+}
+
+.picho4{
+    background: url(/fb_pichos/fbpichos2/IMG_20221104_210959_158.jpg);
+}
+
+.centercontent{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: 70px 275px;
+    margin-top: 28px;
+    /* background-color: rgba(119, 136, 153, 0.1); */
+    /* height: 350px; */
+    position: absolute;
+    left: 440px;
+    right: 440px;
+}
+
+#endmenu{
+    width: 255px;
+    height: 350px;
+    margin-top: 28px;
+    border: 1px solid grey;
+    position: absolute;
+    right: 1px;
+    border-radius: 10px;
+}
+
+.sponsor{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+}
+
+.firstsponsor{
+    border: 1px solid #1E90FF;
+    margin: auto;
+    width: 240px;
+    height: 140px;
+    text-align: center;
+}
+.secondsponsor{
+    border: 1px solid #1E90FF;
+    margin: auto;
+    width: 240px;
+    height: 140px;
+    text-align: center;
+}
+/* .sponsor1{
+    border: 1px solid blue;
+    width: 240px;
+    height: 170px;
+}
+ */
